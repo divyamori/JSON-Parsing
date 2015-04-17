@@ -46,7 +46,7 @@ public class MainActivity extends Activity {
 		ArrayList<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
 		detailsArray = new ArrayList<>();
 		list_emp = (ListView) findViewById(R.id.lv_walker);
-       	parsing.getData(handler, nameValuePairs, detailsArray);
+        	parsing.getData(handler, nameValuePairs, detailsArray);
 		adapter = new CustomAdapter(this, detailsArray);
 		list_emp.setAdapter(adapter);
 
